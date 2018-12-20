@@ -63,7 +63,7 @@ $(document).ready(function(){
   
   <div id="found-text">
 
-      <h1>The jobs most suited for you!</h1>
+      <h1 style = "text-align: center;">The jobs most suited for you!</h1>
   
 <table>
 	<tr>

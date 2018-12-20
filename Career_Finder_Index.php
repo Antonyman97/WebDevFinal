@@ -63,12 +63,12 @@ $(document).ready(function(){
 
 <div class="form-image">
   <div id="hero-text">
-    <h1 style="font-size:50px">Find a Job thats right for you!</h1>
-    <button class="button">Try it</button>
+    <h1 style="font-size:50px">Find a job that's right for you!</h1>
+    <button class="button">TRY IT!</button>
   </div>
   
   <div id="form-text">
-	<h1> What do you want in a job?</h1>
+	<h1 style = "text-align: center;"> What do you want in a job?</h1>
 	
   
 	<table>

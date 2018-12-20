@@ -62,7 +62,8 @@ $(document).ready(function(){
 <div class="job-image">
   
   <div id="found-text">
-	
+
+      <h1>The jobs most suited for you!</h1>
   
 <table>
 	<tr>

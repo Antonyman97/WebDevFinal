@@ -24,7 +24,7 @@ $(document).ready(function(){
 </head>
 <body>
 
-<div class="hero-image">
+<div class="job-image">
   
   <div id="found-text">
 	

@@ -132,11 +132,16 @@ catch(PDOException $e)
 
 echo "<td>\n";
 
+if ( $_REQUEST['major'] == -1 ) {
+	
+	die ("No input for Major");
+	
+} else {
 foreach ($major_data as $majorinfo) {
     echo "Major: ", $majorinfo->title, ' ', $majorinfo->code,
 		 "\n";
 	}
-
+}
 	
 echo "</td></tr>\n";
 
@@ -238,6 +243,11 @@ catch(PDOException $e)
     die ('PDO error displaying job": ' . $e->getMessage() );
 }
 
+if ($_REQUEST['major'] == -1){
+	
+	die ( "No input for Major");
+	
+} else {
 foreach ($job_data as $jobinfo) {
 	
 	echo "<td>";
@@ -248,7 +258,7 @@ foreach ($job_data as $jobinfo) {
 	echo "</td></tr>";
 	echo "<tr></tr>";
 	}
-	
+}
 # CHECK IF ANY JOB MATCHED
 
 if ( EMPTY($job_data)){

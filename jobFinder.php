@@ -278,7 +278,9 @@ foreach ($job_data as $jobinfo) {
     A. Rodrigues
  </a>
 
-<span style="float: right;">
+   , M.Henning, L.Oden, Howard Jones
+
+    <span style="float: right;">
 
 
     <a href="http://validator.w3.org/check/referer">
